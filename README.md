@@ -2,6 +2,6 @@
 
 Запустить docker контейнер
 
-docker build -t gini_project .
+`docker build -t gini_project .`
 
 Если все успешно собралось, значит функция успешно работает
