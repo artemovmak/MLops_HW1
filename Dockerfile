@@ -25,3 +25,6 @@ RUN pip install numpy
 
 # Шаг 8: Выполнение тестов после установки пакета
 RUN python test.py
+
+# Шаг 9: Тестируем написанную функцию
+CMD ["python", "test.py"]
